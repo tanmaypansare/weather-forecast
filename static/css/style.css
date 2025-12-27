@@ -1,0 +1,87 @@
+        body {
+            background: linear-gradient(blue, lightblue, white);
+            height: 100vh;
+        }
+/* Weather backgrounds */
+.sunny {
+    background: linear-gradient(to bottom, #56ccf2, #2f80ed);
+}
+
+.cloudy {
+    background: linear-gradient(to bottom, #bdc3c7, #2c3e50);
+}
+
+.rainy {
+    background: linear-gradient(to bottom, #2c3e50, #000000);
+}
+
+.snowy {
+    background: linear-gradient(to bottom, #ecf0f1, #bdc3c7);
+}
+
+.foggy {
+    background: linear-gradient(to bottom, #d7d2cc, #304352);
+}
+
+
+
+
+
+        .weather-title {
+            display: flex;
+            align-items: center;
+            font-family: "Lobster", sans-serif;
+            font-style: normal;
+            font-size: 50px;
+            color: aliceblue;
+            justify-content: center;
+            padding: 0px 50px;
+            padding-top: 75px;
+
+
+        }
+
+        .weather-title img {
+            height: 120px;
+            width: 130px;
+            object-fit: contain;
+        }
+
+        #form1 {
+            justify-content: center;
+
+        }
+
+        #h1style {
+            padding-bottom: 30px;
+        }
+
+        #card1{
+            width: 74%;
+        }
+
+
+@media (max-width: 576px) {
+
+        body {
+            height: 105vh;
+        }
+
+    .weather-title {
+        flex-direction: column;    
+        font-size: 32px;            
+        padding-top: 40px;
+        text-align: center;
+        padding-bottom: 5px;
+    }
+
+    .weather-title img {
+        height: 80px;
+        width: 80px;
+        
+    }
+
+    #card1{
+        width: 78%;
+    }
+}
