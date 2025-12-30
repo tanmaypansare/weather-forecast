@@ -92,6 +92,9 @@ function updateIcon(condition) {
     else if (c.includes("fog")) {
         weatherIcon.src = "/static/icons/fog.webp";
     } 
+    else if (c.includes("Haze")) {
+        weatherIcon.src = "/static/icons/haze.png";
+    } 
     else {
         weatherIcon.src = "/static/icons/mist.png";
     }
